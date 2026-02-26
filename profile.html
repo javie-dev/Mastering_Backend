@@ -1,19 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Profile Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Profile Page</title>
+
+<!-- Link External CSS -->
+<link rel="stylesheet" href="profile.css">
 </head>
+
 <body>
 
-  <!-- Heading -->
-  <h1>Javie Jade Eresmas</h1>
-  <h3>Aspiring Backend Developer 🚀</h3>
+<div class="container">
 
-  <!-- Profile Image -->
-  <img src="https://via.placeholder.com/150" alt="My Profile Picture">
+  <div class="header">
+    <img src="https://via.placeholder.com/150" alt="My Profile Picture">
+    <h1>Javie Jade Eresmas</h1>
+    <h3>Aspiring Backend Developer 🚀</h3>
+  </div>
 
-  <!-- About Me Section -->
-  <div>
+  <div class="section">
     <h2>About Me</h2>
     <p>
       Hello! I'm currently learning HTML, CSS, and JavaScript.
@@ -21,36 +27,35 @@
     </p>
   </div>
 
-  <!-- Hobbies Section -->
-  <div>
+  <div class="section hobbies">
     <h2>My Hobbies</h2>
     <p>✔ Coding</p>
     <p>✔ Playing PUBG Mobile</p>
     <p>✔ Learning new technologies</p>
   </div>
 
-  <!-- Contact Section -->
-  <div>
+  <div class="section">
     <h2>Contact Me</h2>
     <a href="mailto:javie@example.com">Send me an Email</a>
   </div>
 
-  <!-- Simple Contact Form -->
-  <div>
+  <div class="section">
     <h2>Message Me</h2>
     <form>
-      <label>Your Name:</label><br>
-      <input type="text" placeholder="Enter your name"><br><br>
+      <label>Your Name:</label>
+      <input type="text" placeholder="Enter your name">
 
-      <label>Your Email:</label><br>
-      <input type="email" placeholder="Enter your email"><br><br>
+      <label>Your Email:</label>
+      <input type="email" placeholder="Enter your email">
 
-      <label>Your Message:</label><br>
-      <input type="text" placeholder="Type your message"><br><br>
+      <label>Your Message:</label>
+      <textarea rows="4" placeholder="Type your message"></textarea>
 
       <button type="submit">Send</button>
     </form>
   </div>
+
+</div>
 
 </body>
 </html>
